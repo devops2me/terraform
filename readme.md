@@ -11,3 +11,13 @@ Variables Definition:-
 - torage_count                 = "2" -> No of storage accounts to created with in the same storage account
 - nic_count                     = "3"  -> No of NIC's to be creation count
 - subnet-names                  =      -> map for subnets creation as per the no of requirment and we can add the deligation according to subnet requirement
+
+
+###Resouces Definition
+
+all the resourcess names are auto generated and will be appended with the environment name find below screen shot for created resources
+
+![image](https://user-images.githubusercontent.com/123788787/215238916-6b352ad0-ce92-41b8-9468-7782b17bb6d2.png)
+
+![image](https://user-images.githubusercontent.com/123788787/215238962-e6f14623-d27d-4c2e-9276-93bb29e34b3d.png)
+
