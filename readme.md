@@ -3,6 +3,16 @@
 * VNET and 2 subnets, NIC
 * Storage account
 
+| File Name | Usage |
+| ----------- | ----------- |
+| rg.tf | added resource group cration definition. |
+| network.tf | added the Vnet, Subnets, NIC creation code block. |
+| storage.tf | added storage creation code block with randowm name so that name conflicts should not occure. |
+| variables.tf | Defined variable for usage accross the terraform |
+|input.tfvars| input variables references|
+
+
+
 Variables Definition:-
 
 - environment                   = "dev"  -> Type of environment
