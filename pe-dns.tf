@@ -31,7 +31,7 @@ resource "azurerm_private_dns_zone_virtual_network_link" "dfs-network_link" {
 
 resource "azurerm_private_endpoint" "pestorage" {
   count=var.storage_count
-  name                = "${var.environment}-${var.resoure_group_location}-pe-0${count.index}"
+  name                = "${var.environment}-${var.resoure_group_location}-blobpe-0${count.index}"
   location            = azurerm_resource_group.myrg.location
   resource_group_name = azurerm_resource_group.myrg.name
   subnet_id           = azurerm_subnet.mysubnet["pesubnet"].id

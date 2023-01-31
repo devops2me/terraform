@@ -50,7 +50,7 @@ resource "azurerm_network_interface" "myvmnic" {
     subnet_id                     = azurerm_subnet.mysubnet["subnet_1"].id
     private_ip_address_allocation = "Dynamic"
     primary                       = true
-    public_ip_address_id          = try(each.value["public-ip"], null) == true ? azurerm_public_ip.mypip.id : ""
+    public_ip_address_id          = each.value["public-ip"] == true ? azurerm_public_ip.mypip.id : ""
 
   }
   ip_configuration {

@@ -7,7 +7,8 @@ nic-config = {
     nic-name  = "nic1"
     public-ip = true  }
   nic-2 = {
-    nic-name = "nic2" }
+    nic-name = "nic2" 
+    public-ip = false }
 }
 subnet-names = { subnet_1 = {
   subnet_name   = "app-subnet1"
