@@ -2,6 +2,15 @@
 * Resource group
 * VNET and 2 subnets, NIC
 * Storage account
+# 01/30
+
+# VNET –
+* Subnet module - should handle delegated networks as well
+* Network interface module – should have option to provision multiple IP to NIC and public IP (optional)
+* Storage account – create private endpoints for blob and dfs
+
+
+
 
 | File Name | Usage |
 | ----------- | ----------- |
