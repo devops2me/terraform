@@ -22,7 +22,6 @@
 | input.tfvars| input variables references|
 
 
-
 Variables Definition:-
 
 - environment                   = "dev"  -> Type of environment
@@ -37,7 +36,8 @@ Variables Definition:-
 
 all the resourcess names are auto generated and will be appended with the environment name find below screen shot for created resources
 
-![image](https://user-images.githubusercontent.com/123788787/215238916-6b352ad0-ce92-41b8-9468-7782b17bb6d2.png)
+![image](https://user-images.githubusercontent.com/123788787/215660489-d7df84f6-9d71-4bd2-aa28-9a4ff756b9d3.png)
 
-![image](https://user-images.githubusercontent.com/123788787/215238962-e6f14623-d27d-4c2e-9276-93bb29e34b3d.png)
+![image](https://user-images.githubusercontent.com/123788787/215660768-af7ed80f-265e-4d20-9d28-f0bdd90a03fb.png)
+
 
