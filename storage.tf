@@ -5,7 +5,7 @@ resource "random_string" "random" {
 }
 
 resource "azurerm_storage_account" "mystorage" {
-  count=var.storage_count
+  count                    = var.storage_count
   name                     = "${var.environment}${var.resoure_group_location}${random_string.random.result}0${count.index}"
   resource_group_name      = azurerm_resource_group.myrg.name
   location                 = azurerm_resource_group.myrg.location
